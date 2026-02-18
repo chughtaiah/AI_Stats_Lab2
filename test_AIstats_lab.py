@@ -1,4 +1,4 @@
-import ai_math_tools as amt
+import AI_stats_lab.py as amt
 import numpy as np
 
 
