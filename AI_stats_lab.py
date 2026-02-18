@@ -1,5 +1,5 @@
 """
-ai_math_tools.py
+ai_stats_lab.py
 AI Mathematical Tools – Probability & Random Variables
 
 Instructions:
