@@ -1,30 +1,27 @@
-# Descriptive Statistics Lab (Autograded)
+# AI Mathematical Tools Assignment - AI/Stats_Lab2
+Probability, Bernoulli, Normal & Uniform Distributions
 
-## What students implement
-Edit `stats_lab.py` and implement:
+---
 
-### Q1 — Generate & plot histograms (10 bins) and return the sample
-- `normal_histogram(n)` must sample **Normal(0,1)**
-- `uniform_histogram(n)` must sample **Uniform(0,10)**
-- `bernoulli_histogram(n)` must sample **Bernoulli(0.5)**
+## 🎯 Objective
 
-Each function must:
-- generate `n` samples using NumPy
-- plot a histogram with **10 bins**
-- label axes and add a title
-- call `plt.show()`
-- **return** the generated data (as list or NumPy array)
+This assignment evaluates your understanding of:
 
-### Q2 — Sample mean & variance
-- `sample_mean(data)`
-- `sample_variance(data)` must use **n-1** in denominator
+- Probability rules
+- Conditional probability
+- Independence
+- Bayes Rule
+- Bernoulli distribution
+- Normal distribution
+- Uniform distribution
+- Difference between theoretical and sample statistics
+- Law of Large Numbers intuition
 
-### Q3 — Order statistics
-Return `(min, max, median, q1, q3)`.
-For the dataset `[5,1,3,2,4]`, the autograder expects **Q1=2** and **Q3=4**.
+You must implement all functions in:
 
-### Q4 — Sample covariance
-Use **n-1** in denominator.
+    ai_math_tools.py
 
-### Q5 — Covariance matrix
-Return a 2×2 matrix:
+---
+
+## 📂 Repository Structure
+
