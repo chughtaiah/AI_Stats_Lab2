@@ -19,7 +19,7 @@ This assignment evaluates your understanding of:
 
 You must implement all functions in:
 
-    ai_math_tools.py
+    AI_stats_lab.py
 
 ---
 
